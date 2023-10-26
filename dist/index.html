@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>QR Code Generator</title>
+    
+  <link rel="stylesheet" href="/assets/index-7e8ae74a.css">
+</head>
+<body class="relative bg-[url('bgImage2.png')] bg-cover bg-center h-screen md:bg-[url('bgImage.png')] after:content-[''] after:absolute after:w-full after:h-screen after:bg-[rgba(0,0,0,.5)] flex justify-center items-center flex-col gap-8">
+    <div class="bg-[#f4eff1] w-[90%] z-10 p-10 rounded-md shadow-md md:bg-[#c5d8ec] sm:w-[60%] md:w-[45%] lg:[40%] transition-all">
+        <form action="" class="flex flex-col justify-center items-center gap-3">
+            <input type="text" class="w-full px-2 py-0.5 rounded-md outline-none shadow-sm bg-[#e1bcac] active:ring-2 active:ring-[#ba7c5c] active:outline-none focus:outline-none focus:ring-2 focus:ring-[#ba7c5c] md:bg-[#9b8569] md:text-lg md:active:ring-[#283030]  md:focus:ring-[#283030]  placeholder:text-gray-500 md:placeholder:text-[#c5d8ec]"  placeholder="Enter you text">
+            <div>
+            <button type="submit" class="bg-[#ba7c5c] px-2 py-0.5 rounded-md shadow-md text-[#f4eff1] md:bg-[#283030] md:text-[#c5d8ec] md:text-lg hover:brightness-110  ">Generate Code</button>
+            <button type="reset" class="bg-[#ba7c5c] px-2 py-0.5 rounded-md shadow-md text-[#f4eff1] md:bg-[#283030] md:text-[#c5d8ec] md:text-lg hover:brightness-110  " id="resetBtn">Reset</button>
+        </div>
+            <h1 id="qrCaption" class="hidden"></h1>
+            <div id="QRbox" class="hidden">
+                <img src="" class="" alt="" id="QRImage">
+            </div>
+        </form>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.qrStyle{
+    @apply block  my-5 w-28 bg-[#f4eff1] p-2 rounded-md shadow-md md:w-36 md:p-3
+}
+.active{
+    @apply block
+}
+
+.errorStyle{
+    @apply  animate-errorAnime;
+}
+.qrShow{
+    @apply animate-qrCodeAnime
+}
